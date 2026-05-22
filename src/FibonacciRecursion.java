@@ -15,5 +15,6 @@ public class FibonacciRecursion {
         System.out.println("Enter the number to check its fibonacci series : ");
         int nums = sc.nextInt();
         System.out.println(recursion(nums));
+        sc.close();
     }
 }
